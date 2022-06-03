@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="CH12\" />
+    <Folder Include="CH11\" />
+    <Folder Include="CH03\" />
+    <Folder Include="CH10\" />
+    <Folder Include="CH09\" />
+    <Folder Include="CH08\" />
+    <Folder Include="CH07\" />
+    <Folder Include="CH06\" />
+    <Folder Include="CH05\" />
+    <Folder Include="CH04\" />
+  </ItemGroup>
+
+</Project>
