@@ -9,5 +9,5 @@ namespace Baekjoon._01단계
     internal class Main1_14
     {
         }  //모름
-    }
 }
+

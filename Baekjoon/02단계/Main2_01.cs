@@ -15,11 +15,17 @@ namespace Baekjoon._02단계
             int num2 = int.Parse(str[1]);
 
             if(num1 > num2)
+            {
                 Console.WriteLine(">");
-            if(num1 < num2)
+            }
+            else if(num1 < num2)
+            {
                 Console.WriteLine("<");
+            }
             else
+            {
                 Console.WriteLine("==");
+            }
         }
     }
 }

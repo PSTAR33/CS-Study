@@ -8,5 +8,6 @@ namespace Baekjoon._02단계
 {
     internal class Main2_03
     {
+
     }
 }

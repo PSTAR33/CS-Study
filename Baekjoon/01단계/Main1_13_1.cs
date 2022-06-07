@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Baekjoon._01단계
 {
-    internal class Main1_13
+    internal class Main1_13_1
     {
         static void Main1(string[] args)
         {
