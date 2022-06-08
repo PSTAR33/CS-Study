@@ -15,7 +15,6 @@
     <Folder Include="CH08\" />
     <Folder Include="CH07\" />
     <Folder Include="CH06\" />
-    <Folder Include="CH05\" />
   </ItemGroup>
 
 </Project>
