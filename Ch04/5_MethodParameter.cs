@@ -19,7 +19,7 @@ namespace Ch04
 {
     internal class _5_MethodParameter
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // ref 매개변수
             int num1 = 10;
