@@ -17,12 +17,12 @@ namespace Ch05
 {
     internal class _1_Class
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
-            //객체 생성
+            //객체 생성 및 초기화
             Car sonata = new Car();
 
-            // 객체 초기화
+            //객체 초기화
             sonata.name = "소나타";
             sonata.color = "흰색";
             sonata.speed = 0;
