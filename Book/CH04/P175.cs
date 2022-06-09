@@ -8,14 +8,13 @@ namespace Book.CH04
 {
     internal class P175
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             for (int i = 0; i < 10; i++)
             {
-                for (int k = 8; k > i + 1; k--)
-                    Console.Write(""); ;
                 for (int j = 0; j < i + 1; j++)
-                    Console.Write('\n');
+                    Console.Write('*'); ;
+                Console.Write('\n');
             }
         }
     }

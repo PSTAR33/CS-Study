@@ -13,7 +13,6 @@
     <Folder Include="CH10\" />
     <Folder Include="CH09\" />
     <Folder Include="CH08\" />
-    <Folder Include="CH07\" />
     <Folder Include="CH06\" />
   </ItemGroup>
 

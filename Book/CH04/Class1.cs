@@ -22,14 +22,8 @@ namespace Book.CH04
                 Console.Write("출력");
             }
             Console.WriteLine("");
-            
-            int j = 0;
-            while (j<10)
-                {
-                Console.Write("출력");
-                j++;
-                }
 
+            
 
         }
     }
