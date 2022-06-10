@@ -8,7 +8,7 @@ namespace Test._1
 {
     internal class _1_09
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int count = 0;
 
