@@ -8,7 +8,7 @@ namespace Baekjoon._02단계
 {
     internal class Main2_01
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             string[] str = Console.ReadLine().Split();
             int num1 = int.Parse(str[0]);
