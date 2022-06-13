@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Book.CH07
 {
-    class Animal1
+    class Animal
     {
         public int Age { get; set; }
-        public Animal1() { this.Age = 0; }
+        public Animal() { this.Age = 0; }
 
         public void Eat()
         {
@@ -21,7 +21,7 @@ namespace Book.CH07
         }
     }
 
-    class Dog1 : Animal1
+    class Dog1 : Animal
     {
         public string Color { get; set; }
 
@@ -31,15 +31,11 @@ namespace Book.CH07
         }
 
     }
-    class Cat1 : Animal1
+    class Cat1 : Animal
     {
         public void Meow()
         {
             Console.WriteLine("냥냥 웁니다.");
         }
-    }
-    internal class P336
-    {
-
     }
 }

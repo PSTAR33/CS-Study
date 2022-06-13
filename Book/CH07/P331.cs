@@ -49,7 +49,7 @@ namespace Book.CH07
         }
         public void Meow()
         {
-            Console.WriteLine("왈왈 웁니다.");
+            Console.WriteLine("냥냥 웁니다.");
         }
     }
     internal class P331
