@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /*
- * 날짜 : 2022/06/11
+ * 날짜 : 2022/06/13
  * 이름 : 박세환
  * 내용 : 추상 클래스 실습하기 교재 p230
  * 
