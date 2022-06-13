@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace Ch06.Sub2
 {
-    internal class SmartTV
+    internal class TV : Internet, IComputer
     {
+        public void PowerOn()
+        {
+            Console.WriteLine("TV PowerOn...");
+        }
+
+        public void Booting()
+        {
+            Console.WriteLine("TV Boooting...");
+            
+        }
+
+        public void AccessInternet()
+        {
+            base.Access();
+        }
     }
 }

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ch06.Sub2
 {
-    internal interface IComputer
+    interface ISocket
     {
-        public void Booting();
-        public void AccessInternet();
+        public void SwitchOn();
+        public void SwitchOff();
 
     }
 }
