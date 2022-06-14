@@ -18,7 +18,7 @@ namespace Ch06
 {
     internal class _2_Interface
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // 인터페이스로 공통 클래스 구조설계
             IRemoteControl lg      = new LGRemocon();
