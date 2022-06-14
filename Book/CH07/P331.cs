@@ -54,7 +54,7 @@ namespace Book.CH07
     }
     internal class P331
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             List<Dog> Dogs = new List<Dog>() { new Dog(), new Dog(), new Dog() };
             List<Cat> Cats = new List<Cat>() { new Cat(), new Cat(), new Cat() };
