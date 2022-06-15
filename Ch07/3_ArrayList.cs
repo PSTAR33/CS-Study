@@ -72,9 +72,9 @@ namespace Ch07
             list3.Add(4);
             list3.Add(5);
 
-            foreach (int n in list3)
+            foreach (int m in list3)
             {
-                Console.Write(n+" ");
+                Console.Write(m+" ");
             }
             Console.WriteLine();
 
@@ -100,7 +100,6 @@ namespace Ch07
 
             Apple a1 = list5[0];
             a1.show();
-
             list5[1].show();
             list5[2].show();
         }
