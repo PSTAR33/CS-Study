@@ -8,5 +8,16 @@ namespace Book.CH02
 {
     internal class P80
     {
+        static void Main1(string[] args)
+        {
+            int a = 273;
+            int b = 52;
+            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
+            Console.WriteLine(a * b);
+            Console.WriteLine(a / b);
+            Console.WriteLine(a % b);
+        }
+
     }
 }

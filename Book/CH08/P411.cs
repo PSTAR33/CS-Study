@@ -31,7 +31,7 @@ namespace Book.CH08
                 this.y = y;
             }
         }
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //클래스
             PointClass pointClassA = new PointClass(10, 20);

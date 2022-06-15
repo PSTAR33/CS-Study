@@ -21,10 +21,10 @@ namespace Book.CH02
             //출력합니다.
             Console.WriteLine(_int.GetType);
             Console.WriteLine(_long.GetType);
-            Console.WriteLine(_int.GetType);
-            Console.WriteLine(_int.GetType);
-            Console.WriteLine(_int.GetType);
-            Console.WriteLine(_int.GetType);
+            Console.WriteLine(_float.GetType);
+            Console.WriteLine(_double.GetType);
+            Console.WriteLine(_char.GetType);
+            Console.WriteLine(_string.GetType);
         }
 	}
 }

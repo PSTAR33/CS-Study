@@ -10,9 +10,12 @@ namespace Book.CH02
     {
         static void Main1(string[] args)
         {
-            // 변수를 선언합니다.
-            int _int = 273;
-
+            Console.WriteLine((273).GetType());
+            Console.WriteLine((522731033265L).GetType());
+            Console.WriteLine((52.273F).GetType());
+            Console.WriteLine((52.273).GetType());
+            Console.WriteLine(('자').GetType());
+            Console.WriteLine(("문자열").GetType());
         }
     }
 }
