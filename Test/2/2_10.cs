@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
 namespace Test._2
 {
     internal class _2_10
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             for(int i = 0; i < 10; i++)
             {
@@ -26,3 +26,4 @@ namespace Test._2
         }
     }
 }
+*/
