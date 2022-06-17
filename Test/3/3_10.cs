@@ -29,7 +29,7 @@ namespace Test._3
 
     internal class _3_10
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Buyer buyer = new Customers();
             Seller seller = new Customers();
