@@ -34,9 +34,9 @@ namespace Book.CH08
             }
         }
 
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
-            Point point = new Point();
+            Point point = new Point(0, 0);
 
             Console.WriteLine(point.x);
             Console.WriteLine(point.y);

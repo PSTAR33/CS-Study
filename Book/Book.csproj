@@ -10,7 +10,6 @@
   <ItemGroup>
     <Folder Include="CH12\" />
     <Folder Include="CH11\" />
-    <Folder Include="CH10\" />
     <Folder Include="CH06\" />
   </ItemGroup>
 

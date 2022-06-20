@@ -8,7 +8,7 @@ namespace Book.CH02
 {
     internal class P82
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int a = 2000000000;
             int b = 1000000000;
