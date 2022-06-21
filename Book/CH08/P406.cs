@@ -34,7 +34,7 @@ namespace Book.CH08
             }
         }
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Point point = new Point(0, 0);
 
