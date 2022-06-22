@@ -8,7 +8,7 @@ namespace Baekjoon._02단계
 {
     internal class Main2_07
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             string[] num = Console.ReadLine().Split();
             int n1 = int.Parse(num[0]);
@@ -36,15 +36,15 @@ namespace Baekjoon._02단계
                     Console.WriteLine(b);
                 }
            
-            else if(n1 != n2 && n2 != n3 && n1 != n3)
+            else
             {
-                if(n1 < n2)
+                if(n1 < n2 || n1 < n3)
                 {
                     n1 = n2;
                     if (n1 < n3)
                         n1 = n3;
+                 
                 }
-
                 int c = n1 * 100;
                 Console.WriteLine(c);
             }

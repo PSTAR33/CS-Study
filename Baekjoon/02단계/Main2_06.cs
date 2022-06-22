@@ -19,7 +19,7 @@ namespace Baekjoon._02단계
             int num1 = h * 60 + m;
             int num2 = num1 + t;
 
-            if(num2 > 1440)
+            if(num2 >= 1440)
             {
                 num2 = num2 - 1440;
             }
