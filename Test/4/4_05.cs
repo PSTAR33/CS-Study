@@ -39,7 +39,7 @@ namespace Test._4
 
     internal class _4_05
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             TV tv = new TV();
             Computer com = new Computer();
