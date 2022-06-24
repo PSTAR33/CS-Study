@@ -8,7 +8,7 @@ namespace Test._5
 {
     internal class _5_10
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             //배열
             string[] arrNames = new string[5];
