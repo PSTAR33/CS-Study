@@ -76,6 +76,7 @@
             this.rdYear2 = new System.Windows.Forms.RadioButton();
             this.rdYear1 = new System.Windows.Forms.RadioButton();
             this.btnForm2 = new System.Windows.Forms.Button();
+            this.btnForm3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -535,15 +536,27 @@
             // 
             this.btnForm2.Location = new System.Drawing.Point(11, 514);
             this.btnForm2.Name = "btnForm2";
-            this.btnForm2.Size = new System.Drawing.Size(75, 23);
+            this.btnForm2.Size = new System.Drawing.Size(114, 23);
             this.btnForm2.TabIndex = 19;
-            this.btnForm2.Text = "버튼";
+            this.btnForm2.Text = "Fom2 띄우기";
             this.btnForm2.UseVisualStyleBackColor = true;
             this.btnForm2.Click += new System.EventHandler(this.btnForm2_Click);
+            // 
+            // btnForm3
+            // 
+            this.btnForm3.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnForm3.Location = new System.Drawing.Point(141, 514);
+            this.btnForm3.Name = "btnForm3";
+            this.btnForm3.Size = new System.Drawing.Size(118, 23);
+            this.btnForm3.TabIndex = 20;
+            this.btnForm3.Text = "Fom3 띄우기";
+            this.btnForm3.UseVisualStyleBackColor = true;
+            this.btnForm3.Click += new System.EventHandler(this.btnForm3_Click);
             // 
             // btn1
             // 
             this.ClientSize = new System.Drawing.Size(908, 601);
+            this.Controls.Add(this.btnForm3);
             this.Controls.Add(this.btnForm2);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -637,5 +650,6 @@
         private RadioButton rdYear2;
         private RadioButton rdYear1;
         private Button btnForm2;
+        private Button btnForm3;
     }
 }

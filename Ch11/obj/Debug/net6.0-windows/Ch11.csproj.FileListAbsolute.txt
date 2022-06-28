@@ -16,3 +16,4 @@ C:\Users\1302\Desktop\Study\Ch11\obj\Debug\net6.0-windows\Ch11.genruntimeconfig.
 C:\Users\1302\Desktop\Study\Ch11\obj\Debug\net6.0-windows\ref\Ch11.dll
 C:\Users\1302\Desktop\Study\Ch11\obj\Debug\net6.0-windows\Ch11.btn1.resources
 C:\Users\1302\Desktop\Study\Ch11\obj\Debug\net6.0-windows\Ch11.Form2.resources
+C:\Users\1302\Desktop\Study\Ch11\obj\Debug\net6.0-windows\Ch11.Form3.resources
