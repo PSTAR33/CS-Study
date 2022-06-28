@@ -8,7 +8,7 @@ namespace Test._7
 {
     internal class _7_08
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             string name = "홍길동";
             int age = 27;
