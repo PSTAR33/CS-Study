@@ -10,7 +10,7 @@ namespace Test._9
     {
         enum COLOR { red, green, blue };
 
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             COLOR[,] colors = new COLOR[3, 3];
             
@@ -30,7 +30,7 @@ namespace Test._9
             {
                 for (int j=0; j<3; j++)
                 {
-                    Console.Write("{0,3}", (int)colors[i, j]);
+                    Console.Write("{0,3}", colors[i, j]);
                 }
                 Console.WriteLine();
             }
