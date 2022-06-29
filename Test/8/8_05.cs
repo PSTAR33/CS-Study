@@ -8,7 +8,7 @@ namespace Test._8
 {
     internal class _8_05
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.Write("숫자 입력 : ");
             int n = int.Parse(Console.ReadLine());
