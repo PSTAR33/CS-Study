@@ -10,7 +10,7 @@ namespace Test._9
     {
         enum COLOR { red, green, blue };
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             COLOR[,] colors = new COLOR[3, 3];
             
