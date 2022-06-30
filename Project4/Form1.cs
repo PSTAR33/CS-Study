@@ -3,10 +3,11 @@ namespace Project4
     public partial class Form1 : Form
     {
         Graphics g;
+
+        int nBlocks = 20;
         Rectangle racket = new Rectangle();
         Rectangle[] blocks = new Rectangle[100];
         bool[] blockVisible = new bool[100];
-        
         Rectangle ball;
 
         Brush racketColor = new SolidBrush(Color.Red);
@@ -14,11 +15,10 @@ namespace Project4
         Brush ballColor = new SolidBrush(Color.Gold);
         Pen pen = new Pen(Color.Black);
 
-        int formW = 300;
-        int formH = 500;
+        int formW = 300;  
+        int formH = 500;   //다름
 
-        int nBlocks = 20;
-        
+
         int racketY = 480;
         int racketW = 298;
         int racketH = 10;
@@ -34,9 +34,9 @@ namespace Project4
         double vDir = 1; // 공이 위, 아래로 향하는 방향 여부
 
         Random rand = new Random();
-        private int clearedBlocks = 0;
-        private int MaxBlocks = 100;
-        private int initialBallPosition;
+        public int clearedBlocks = 0;
+        public int MaxBlocks = 100;
+        public int initialBallPosition;
 
         public Form1()
         {
@@ -52,11 +52,7 @@ namespace Project4
             StartBall();
         }
 
-        
-
-        
-
-        private void InitblockVisible()
+        public void InitblockVisible()
         {
             for (int i = 0; i < nBlocks; i++)
                 blockVisible[i] = true;
@@ -105,7 +101,7 @@ namespace Project4
                 }
             }
         }
-        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        public void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Left)
             {
@@ -130,6 +126,8 @@ namespace Project4
         }
         protected override void OnPaint(PaintEventArgs e)
         {
+            g = CreateGraphics();
+
             // 벽돌 그리기
             DrawBlock();
 
@@ -140,7 +138,7 @@ namespace Project4
             DrawBall();
 
         }
-        private void StartBall()
+        public void StartBall()
         {
             InitBall();
             slope = rand.Next(5, 20) / 10.0;
@@ -177,20 +175,6 @@ namespace Project4
                 StartBall();
                 return;
             }
-            Invalidate();
-
-            // ball이 벽돌을 맞앗는지 체크
-            for (int i = 0; i < nBlocks; i++)
-            {
-                if (ball.IntersectsWith(blocks[i]))
-                {
-                    vDir = -vDir;
-                    blockVisible[i] = false;
-                }
-            }
-
-
-
 
             // 블록의 맨 아래 위치보다 볼이 더 아래에 있다면 블록과의 intersect를 비교하지 않는다.
             if (ball.Y > blockY + blockH * blockH * nBlocks / 10)
@@ -230,7 +214,7 @@ namespace Project4
 
 
         }
-        private void newLevelStart()
+        public void newLevelStart()
         {
             if (nBlocks > MaxBlocks)
                 return; // nBlocks = MaxBlocks;
