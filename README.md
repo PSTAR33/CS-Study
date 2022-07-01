@@ -10,10 +10,15 @@
 	- 6. 문자열
 	
 ## Ch03. 
+
 ## Ch04. 
+
 ## Ch05. 
+
 ## Ch06. 
+
 ## Ch07. 
+
 ## Ch08. 
 
 
@@ -24,7 +29,7 @@
 ## Project3. 오목
 	- 흰돌 바둑돌이 번갈아가며 놓으며 가로,세로,대각선 상관엉ㅄ이 먼저 5개를 연속해서 놓으면 승리
 	- 승리하는 즉시 새로운 게임을 할것인지 물으며 예/아니오 선택시 새게임/종료 됨
-[Project3.jpg](C:\Users\1302\Desktop\Study\Project3)
+![Project3.jpg](C:\Users\1302\Desktop\Study\Project3)
 
 ## Project4. 벽돌깨기 게임
 
