@@ -68,6 +68,8 @@
 	2. 활용기술
 		- 컨트롤
 		- 이벤트 핸들러
+![Project1.jpg](./Project1/Project1.jpg)
+		
 ## Project2. 데이터베이스
 	1. 프로젝트 유형
 		- WinForm 프로젝트
@@ -94,4 +96,6 @@
 	2. 활용기술
 		- 윈도우 그래픽
 		- 이벤트와 핸들러
+![Project4.jpg](./Project4/Project4.jpg)
+		
 # CS-Study
