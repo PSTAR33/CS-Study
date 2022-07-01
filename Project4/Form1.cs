@@ -20,7 +20,7 @@ namespace Project4
 
 
         int racketY = 480;
-        int racketW = 298;
+        int racketW = 50;
         int racketH = 10;
 
         int blockY = 60;
